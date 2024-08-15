@@ -16,7 +16,4 @@ jobs:
         with:
           version: "latest"
           verb: call
-          # assumes a Go project
-          # modify to use different function(s) as needed
-          module: ./tsconfig.json
           args: build --project=. --args=.
